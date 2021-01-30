@@ -1,0 +1,83 @@
+body {
+  background-color: #2D2E2E;
+  font-family: 'Courier New', monospace;
+}
+#mainheading {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    text-align: center;
+    color: #f0e5d8;
+    text-shadow: 2px 1.5px #FF0000;
+    
+}
+#flag {
+    margin-top: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 110px;
+    width: 165px;
+}
+#container {
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 25px;
+    text-align: center;
+}
+.box {
+    background-color: #bbdfc8;
+    width: 250px;
+    height:150px;
+    border-radius: 10px;
+
+}
+p {
+    margin-top:7px ;
+   color: #351f39;
+   font-size:18px;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+span {
+    font-size: 20px;
+font-family: 'Courier New', monospace;
+}
+.nodata {
+    border: #FF0000 3px solid;
+}
+#recovered {
+    border: #00ff08 3px solid;
+
+}
+#tests {
+    border: #00ff08 3px solid;
+
+}
+#deaths {
+    border: #130303 3px solid;
+
+}
+#jsp {
+    border: #ac4444 3px solid;
+
+}
+#active {
+    border: #e15e06 3px solid;
+
+
+}
+#confirmed {
+    border: #880b7e 3px solid;
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    font-size: 12px;
+    bottom: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
