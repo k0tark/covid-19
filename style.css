@@ -20,7 +20,7 @@ body {
     width: 165px;
 }
 #container {
-    margin-left: 60px;
+    margin-left: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 25px;
